@@ -1,0 +1,63 @@
+#kontener{
+    width: 100%;
+    height: 100%;
+    background-color:rgb(64, 60, 88);
+    text-align: center;
+    margin: 0 auto;
+    vertical-align: middle;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#opcje{
+    display: inline-block;
+    width: 37vh;
+    height: 37vh;
+    background-color: blueviolet;
+    vertical-align: middle;
+ 
+
+}
+
+#opcjagoralewo{
+    background-color: chartreuse;
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 200px 0px 0px 0px;
+    -moz-border-radius: 200px 0px 0px 0px;
+    -webkit-border-radius: 200px 0px 0px 0px;
+    float: left;   
+}
+#opcjagoraprawo{
+    background-color: blue;
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 0px 200px 0px 0px;
+    -moz-border-radius: 0px 200px 0px 0px;
+    -webkit-border-radius: 0px 200px 0px 0px; 
+}
+
+#opcjadollewo{
+    background-color: rgb(41, 61, 21);
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 0px 0px 0px 200px;
+    -moz-border-radius: 0px 0px 0px 200px;
+    -webkit-border-radius: 0px 0px 0px 200px;
+    float: left;   
+}
+
+#opcjadolprawo{
+    background-color: rgb(30, 85, 80);
+    width: 50%;
+    height: 50%;
+    float: left;
+    border-radius: 0px 0px 200px 0px;
+    -moz-border-radius: 0px 0px 200px 0px;
+    -webkit-border-radius: 0px 0px 200px 0px;  
+}
