@@ -35,11 +35,32 @@
     float: left;   
     transition-duration: 500ms;
     cursor: pointer;
-    line-height: 22vh;
+    line-height: 15vh;
     font-size: 3vh;
     font-family: 'Secular One', sans-serif;
+    color:#6a4ba3 ;
+}
+#opcjagoralewo h4{
+    transform: rotate(-36deg);
+    margin-left: 2.3vh;
     
 }
+#opcjagoraprawo h4{
+    transform: rotate(36deg);
+    margin-top: 4.2vh;
+    margin-right: 1.95vh;
+}
+#opcjadolprawo h4{
+    transform: rotate(-36deg);
+    margin-top: 1vh;
+    margin-right: 2.5vh;
+}
+#opcjadollewo h4{
+    transform: rotate(36deg);
+    margin-top: 1vh;
+    margin-left: 1vh;
+}
+
 
 #opcjagoralewo:hover{
     width: 49%;
@@ -48,8 +69,8 @@
     margin-bottom: 1%;
     background-color: #39255f ;
     font-size: 2.5vh;
-    line-height: 21.5vh;
-    
+    line-height: 14.5vh;
+    color:rgb(204, 25, 25);
 }
 
 
@@ -66,6 +87,10 @@
     -webkit-border-radius: 0px 200px 0px 0px; 
     transition-duration: 500ms;
     cursor: pointer;
+    line-height: 15vh;
+    font-size: 3vh;
+    font-family: 'Secular One', sans-serif;
+    color:#2b1b49;   
 }
 
 #opcjagoraprawo:hover{
@@ -74,6 +99,10 @@
     height: 49%;
     margin-bottom: 1%;
     background-color: #513586 ;
+    color:rgb(204, 25, 25);
+    font-size: 2.5vh;
+    line-height: 14.5vh;
+    
 }
 
 
@@ -89,6 +118,10 @@
     float: left;  
     transition-duration: 500ms; 
     cursor: pointer;
+    line-height: 15vh;
+    font-size: 3vh;
+    font-family: 'Secular One', sans-serif;
+    color:#2b1b49;  
 }
 
 #opcjadollewo:hover{
@@ -97,6 +130,9 @@
     height: 49%;
     margin-top: 1%;
     background-color: #513586 ;
+    color:rgb(204, 25, 25);
+    font-size: 2.5vh;
+    line-height: 14.5vh;
 }
 
 
@@ -111,6 +147,10 @@
     -webkit-border-radius: 0px 0px 200px 0px;  
     transition-duration: 500ms;
     cursor: pointer;
+    line-height: 15vh;
+    font-size: 3vh;
+    font-family: 'Secular One', sans-serif;
+    color:#6a4ba3 ;
 }
 
 #opcjadolprawo:hover{
@@ -119,4 +159,7 @@
     height: 49%;
     margin-top: 1%;
     background-color: #39255f ;
+    font-size: 2.5vh;
+    line-height: 14.5vh;
+    color:rgb(204, 25, 25);
 }

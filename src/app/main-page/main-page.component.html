@@ -1,17 +1,26 @@
 <div id="kontener">
-    <div id="opcje">
-        <div id="opcjagoralewo">
-            O mnie
-        </div>
-        <div id="opcjagoraprawo">
-            2
-        </div>
+    <div id="opcje" class="animate__animated animate__rotateIn">
+        <a routerLink="/placeholder" >
+            <div id="opcjagoralewo" (click)="goToBottom()">
+                 <h4> O mnie</h4>
+            </div>    
+        </a>
+        <a routerLink="/placeholder" >
+            <div id="opcjagoraprawo" (click)="goToBottom()">
+                 <h4>Kontakt</h4>
+            </div>    
+        </a>
         <div style="clear: both;"></div>
-        <div id="opcjadollewo">
-            3
-        </div>
-        <div id="opcjadolprawo">
-            4
-        </div>
+        <a routerLink="/placeholder" >
+            <div id="opcjadollewo" (click)="goToBottom()">
+                 <h4>Osiągnięcia</h4>
+            </div>    
+        </a>
+        <a routerLink="/placeholder" >
+            <div id="opcjadolprawo" (click)="goToBottom()">
+                 <h4>Stack</h4>
+            </div>    
+        </a>
     </div>
 </div>
+

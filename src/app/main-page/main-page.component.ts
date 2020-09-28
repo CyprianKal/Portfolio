@@ -12,4 +12,7 @@ export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  goToBottom(){
+    window.scrollTo(-300,document.body.scrollHeight);
+  }
 }
