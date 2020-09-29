@@ -20,7 +20,7 @@
     width: 37vh;
     height: 37vh;
     vertical-align: middle;
- 
+   
 
 }
 
@@ -162,4 +162,49 @@
     font-size: 2.5vh;
     line-height: 14.5vh;
     color:rgb(204, 25, 25);
+}
+
+#buttoncolor{
+    width: 20vh;
+    background-color: #30214d;
+    height: 5vh;
+    position: fixed;
+    top:0;
+    left:0;
+    transition-duration: 500ms;
+    border-radius: 0px 0px 400px 0px;
+    line-height: 4.5vh;
+    font-size: 2vh;
+    font-family: 'Secular One', sans-serif;
+    color:#64567e ;
+    cursor: pointer;
+}
+#buttoncolor:hover{
+   
+    background-color: #402e64;
+
+    line-height: 5vh;
+    font-size: 2.5vh;
+    color:#ad3f3f ;
+}
+
+.jasny{
+    background-color: rgb(173, 200, 204) !important;
+}
+
+.jasnyprzycisk1{
+    background-color: rgb(130, 123, 170) !important;
+}
+.jasnyprzycisk1:hover{
+    background-color: rgb(104, 97, 146) !important;
+    color:rgb(228, 155, 72) !important;
+}
+.jasnyprzycisk2{
+    background-color: rgb(90, 83, 129) !important;
+    color: rgb(226, 220, 220) !important;
+}
+
+.jasnyprzycisk2:hover{
+    background-color: rgb(102, 94, 145) !important;
+    color:rgb(228, 155, 72) !important;
 }
