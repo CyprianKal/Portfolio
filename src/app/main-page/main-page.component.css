@@ -165,29 +165,55 @@
 }
 
 #buttoncolor{
-    width: 20vh;
-    background-color: #30214d;
-    height: 5vh;
-    position: fixed;
-    top:0;
-    left:0;
+    text-align: center;
+    width: 140px;
+    background-color: transparent;
+    height: 50px;
+    position: absolute;
+    top:5px;
+    left:5px;
     transition-duration: 500ms;
-    border-radius: 0px 0px 400px 0px;
-    line-height: 4.5vh;
-    font-size: 2vh;
+    border-radius:30%;
+    line-height: 50px;
+    font-size: 18px;
     font-family: 'Secular One', sans-serif;
     color:#64567e ;
     cursor: pointer;
+    letter-spacing: 3px;
 }
-#buttoncolor:hover{
-   
-    background-color: #402e64;
-
-    line-height: 5vh;
-    font-size: 2.5vh;
+#buttoncolor:hover{  
     color:#ad3f3f ;
 }
+#jasnastrona{
+    border-radius: 30% 0 0 30%;
+    top: 5px;
+    left:5px;
+    height: 90%;
+    width: 70px;
+    position: absolute;
+    background-color: rgba(178, 184, 183, 0.849);
+    opacity: 0.3;
+    transition-duration: 500ms;
+}
+#ciemnastrona{
+    opacity: 0.3;
+    border-radius: 0 30% 30% 0;
+    top:5px;
+    left:75px;
+    width: 70px;
+    height: 90%;
+    position: absolute;
+    background-color: rgba(31, 31, 36, 0.829);
+    transition-duration: 500ms;
+}
 
+#ciemnastrona:hover{
+   opacity: 1;
+}
+
+#jasnastrona:hover{
+    opacity: 1;
+ }
 .jasny{
     background-color: rgb(173, 200, 204) !important;
 }

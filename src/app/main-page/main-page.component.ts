@@ -24,13 +24,20 @@ export class MainPageComponent implements OnInit {
       document.getElementById('opcjadollewo').className = "";
       document.getElementById('opcjadolprawo').className = "";
       document.getElementById('opcjagoralewo').className = "";
-      document.getElementById('buttoncolor').style.backgroundColor="#30214d";
-      document.getElementById('buttoncolor').style.color="#64567e";
+      document.getElementById('ciemnastrona').style.opacity="1.0";
+      document.getElementById('jasnastrona').style.opacity="0.1";
+      document.getElementById('zmien').style.color="white";
+      document.getElementById('kolor').style.color="black";
     }
     else{
-      document.getElementById('buttoncolor').style.backgroundColor="#4e3b74";
-      document.getElementById('buttoncolor').style.color="#796e8d";
+
       document.body.className = "jasny";
+      document.getElementById('zmien').style.color="black";
+      document.getElementById('kolor').style.color="white";
+
+      document.getElementById('buttoncolor').style.color="white";
+      document.getElementById('ciemnastrona').style.opacity="0.3";
+      document.getElementById('jasnastrona').style.opacity="1.0";
       document.getElementById('kontener').className = "jasny";
       document.getElementById('opcjagoraprawo').className = "jasnyprzycisk1";
       document.getElementById('opcjadollewo').className = "jasnyprzycisk1";
