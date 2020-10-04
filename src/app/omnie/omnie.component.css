@@ -1,4 +1,4 @@
-#kontener{width: 100%;height:auto; display: flex;flex-direction: column; background-color: rgb(88, 86, 102);}
+#kontenerr{box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:rgb(78, 73, 107)}
 
 .row{
     display: flex;
@@ -6,7 +6,7 @@
 }
 .row:first-child{margin-top: 10vh;}
 .row:last-child{margin-bottom: 10vh;}
-.opis{display: flex;flex-direction: column;   }
+.opis{display: flex;flex-direction: column;  font-family: 'Lato', sans-serif; }
 .row div{
     flex:1;
 }
@@ -29,37 +29,50 @@
 }
 .zdjecie img{
     height: 50vh;
+   
 }
-@media only screen and (max-width: 910px){
+@media only screen and (max-width: 900px){
     .row{flex-direction: column;}
     .osiagniecia{flex-direction: column;}
     #kontener{justify-content: space-around;}
     .opis div p{
         margin-top: 0 !important;
+        
     }
     .side{display: none;}
-    .krocej{width: 70%;margin: auto;}
-    .dluzej{width: 70%;margin: auto;}
+    #krocej{width: 70%;margin: auto; font-size: 100%;border-radius: 5px 5px 0 0 !important;}
+    #dluzej{width: 70%;margin: auto; font-size: 20px !important;border-radius:  0 0 5px 5px !important;}
     .zdjecie img{
         width:50%;
         height: 50%;
     }
 }
 
-.krocej{
+#krocej{
+    color:#6a4ba3 ;
+    
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: orange;
+    background-color: #332155 ;
     flex:5!important;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    font-size: 250%;
+    border-radius: 10px 0 0 10px;
 }
 
-.dluzej{
+#dluzej{
+    border-radius: 0 10px 10px 0;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: orchid;
+    background-color:#7b2cbf;
     flex:12 !important;
+    font-family: 'Lato', sans-serif;
+    padding: 5px;
+    font-size: calc(1vh + 1vw);
+    background-color: #332155 ;
 }
 
 .osiagniecia{
@@ -77,12 +90,12 @@
 }
 
 .opis div p{
-    text-align: center;
-    background-color: red;
+    text-align: center ;
+    background-color:rgba(74, 36, 109, 0.357);
     margin: auto;
-    width: 35vh;
+    width: 356.5px;
     align-items: center;
-    
+    border-radius: 10px;
     font-size:4.25vh;
     
 }
@@ -92,5 +105,16 @@
     margin-top: 10vh;
 
 }
+.opis div p:last-child{
+
+    margin-bottom: 2vh;
+
+}
 .side{flex:1;}
 
+
+.jasnydr{background-color: #dbd6d6 !important;box-shadow: inset 0px 0px 81px 4px rgb(110, 109, 110) !important; }
+
+.jasnyopis{background-color: #BBBBBB !important;}
+
+.jasnep{background-color: #BBBBBB !important;}

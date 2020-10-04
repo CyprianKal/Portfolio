@@ -9,8 +9,6 @@
     display: flex;
     justify-content: center;
     align-items: center; 
-    -webkit-box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);
-    -moz-box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);
     box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);
     
 }
@@ -166,30 +164,28 @@
 
 #buttoncolor{
     text-align: center;
-    width: 140px;
+    width: 110px;
     background-color: transparent;
-    height: 50px;
+    height: 40px;
     position: absolute;
     top:5px;
     left:5px;
     transition-duration: 500ms;
-    border-radius:30%;
-    line-height: 50px;
-    font-size: 18px;
+    border-radius:40%;
+    line-height: 40px;
+    font-size: 100%;
     font-family: 'Secular One', sans-serif;
     color:#64567e ;
     cursor: pointer;
     letter-spacing: 3px;
 }
-#buttoncolor:hover{  
-    color:#ad3f3f ;
-}
+
 #jasnastrona{
     border-radius: 30% 0 0 30%;
     top: 5px;
     left:5px;
     height: 90%;
-    width: 70px;
+    width: 55px;
     position: absolute;
     background-color: rgba(178, 184, 183, 0.849);
     opacity: 0.3;
@@ -199,8 +195,8 @@
     opacity: 0.3;
     border-radius: 0 30% 30% 0;
     top:5px;
-    left:75px;
-    width: 70px;
+    left:60px;
+    width: 55px;
     height: 90%;
     position: absolute;
     background-color: rgba(31, 31, 36, 0.829);
@@ -215,22 +211,25 @@
     opacity: 1;
  }
 .jasny{
-    background-color: rgb(173, 200, 204) !important;
+    background-color: #eeeeee !important;
+    box-shadow: inset 0px 0px 81px 4px rgb(110, 109, 110) !important;
 }
 
 .jasnyprzycisk1{
-    background-color: rgb(130, 123, 170) !important;
+    background-color:  #dddddd  !important;
+    color: rgb(133, 133, 133) !important;
 }
 .jasnyprzycisk1:hover{
-    background-color: rgb(104, 97, 146) !important;
-    color:rgb(228, 155, 72) !important;
+    background-color: #d6cdcd !important;
+    color:rgb(180, 139, 93) !important;
 }
 .jasnyprzycisk2{
-    background-color: rgb(90, 83, 129) !important;
+
+    background-color: #bbbbbb !important;
     color: rgb(226, 220, 220) !important;
 }
 
 .jasnyprzycisk2:hover{
-    background-color: rgb(102, 94, 145) !important;
-    color:rgb(228, 155, 72) !important;
+    background-color: #c9bebe!important;
+    color:rgb(180, 139, 93) !important;
 }
