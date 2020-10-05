@@ -1,4 +1,4 @@
-#kontenerr{box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:#22223B; font-family: 'Courier New', Courier, monospace; margin-bottom: 0;}
+#kontenerr{box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:rgb(34, 34, 59); font-family: 'Courier New', Courier, monospace; margin-bottom: 0;}
 
 #kontenerr h1{flex:1; color:white;margin: auto; margin-top: 2%; }
 #omnie{font-size: calc(2vh + 2vw);}
@@ -6,7 +6,7 @@
 
 .kafelekcaly{flex:1;display: flex; flex-direction: column; margin: 10px; padding: 10px; justify-content: center; align-items: center;}
 .zawartosckafelek{text-align: center; background-color: #363852; color: rgb(197, 188, 188); }
-.tytulkafelek{text-align: center;background-color: #4A4E69;  } 
+.tytulkafelek{text-align: center;background-color: rgb(74, 78, 105);  } 
 
 #pojemnikdwa{
     display: flex;
@@ -15,7 +15,7 @@
     margin: 0;
 }
 #zdjeciemnie img{margin-bottom: 0;}
-#nazwa{flex:2; font-size: calc(2vw + 2vh);}
+#nazwa{flex:2; font-size: calc(2vw + 2vh); padding: 5px;}
 #zdjeciemnie{flex:2; text-align: center; margin-bottom: 0;}
 #zawod{flex:3;  font-size: calc(2vw + 2vh);}
 @media only screen and (max-width: 900px) {

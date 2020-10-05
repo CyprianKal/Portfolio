@@ -1,0 +1,40 @@
+#kontenert{box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:rgb(34, 34, 59); font-family: 'Courier New', Courier, monospace; margin-bottom: 0;}
+
+#kontenert h1{flex:1; color:white;margin: auto; margin-top: 2%; }
+#omnie{font-size: calc(2vh + 2vw);}
+
+#flexkontener{
+    display: flex;
+    flex:1;
+    text-align: center;
+    height: 5 00px;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+#git ,#mail, #fb{
+    flex:1;
+   
+    display: flex;
+
+}
+
+#git div,#mail div,#fb div{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: darkblue;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#fb div{background-color: 	#3b5998;}
+
+#git div{background-color: #333;}
+
+@media only screen and (max-width: 1300px) {
+    #flexkontener{flex-direction: column;}
+}
