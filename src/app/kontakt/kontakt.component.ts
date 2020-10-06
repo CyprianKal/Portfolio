@@ -11,5 +11,7 @@ export class KontaktComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
+  alarm(){
+    alert("cyprian_kalina@wp.pl");
+  }
 }

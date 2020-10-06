@@ -5,8 +5,8 @@
 #pojemnik{display: flex; padding: 50px;}
 
 .kafelekcaly{flex:1;display: flex; flex-direction: column; margin: 10px; padding: 10px; justify-content: center; align-items: center;}
-.zawartosckafelek{text-align: center; background-color: #363852; color: rgb(197, 188, 188); }
-.tytulkafelek{text-align: center;background-color: rgb(74, 78, 105);  } 
+.zawartosckafelek{text-align: center; background-color: #363852; color: rgb(197, 188, 188); border-radius: 0 0 10px 10px;}
+.tytulkafelek{text-align: center;background-color: rgb(74, 78, 105);  border-radius: 10px 10px 0 0;} 
 
 #pojemnikdwa{
     display: flex;
