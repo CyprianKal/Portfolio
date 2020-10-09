@@ -7,6 +7,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 import { PlaceHolderComponent } from './place-holder/place-holder.component';
 import { OmnieComponent } from './omnie/omnie.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
+import { StackComponent } from './stack/stack.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { KontaktComponent } from './kontakt/kontakt.component';
     MainPageComponent,
     PlaceHolderComponent,
     OmnieComponent,
-    KontaktComponent
+    KontaktComponent,
+    StackComponent
   ],
   imports: [
     BrowserModule,

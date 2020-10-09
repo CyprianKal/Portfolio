@@ -1,0 +1,48 @@
+#kontenerv3{text-align: center;box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:rgb(34, 34, 59); font-family: 'Courier New', Courier, monospace; margin-bottom: 0;}
+
+#kontenerv3 h1{color:white;margin: auto; margin-top: 2%; margin-bottom: 2%;}
+
+#flexboxcon{
+    display: flex;
+    max-width: 80%;
+    min-width: 60%;
+    margin: auto;
+
+    
+    flex-direction: column;
+}
+
+#flexboxcon div{margin: calc(0.5vw + 0.5vh);}
+
+.dwaobok{
+    display: flex;
+    
+    flex-direction: row;
+    
+}
+
+.jedendlugi{
+    display: flex;
+   
+}
+
+#skill1{background-color:#fc6c5c; flex: 1;}
+#skill2{background-color: #007acc;flex: 1;}
+#skill3{background-color: 	#800000;flex: 1;}
+#skill4{background-color: rgb(83, 83, 139);flex: 1;}
+#skill5{background-color: rgb(68, 143, 124);flex: 1;}
+#skill6{background-color: rgb(91, 97, 88);flex: 1;}
+#skill7{background-color: rgb(30, 30, 46);flex: 1;}
+#skill8{background-color: rgb(163, 108, 63);flex: 1;}
+#skill9{background-color: rgb(55, 116, 121);flex: 1;}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    .dwaobok{flex-direction: column!important;}
+    #flexboxcon{width: 90%;}
+    #flexboxcon div{margin-top:2vh;margin-bottom: 2vh; flex-basis: 30%;}
+    #skill3, #skill6, #skill9{margin-bottom: -2vh !important; margin-top: -2vh !important;}
+}
