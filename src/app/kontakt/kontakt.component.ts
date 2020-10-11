@@ -9,8 +9,10 @@ export class KontaktComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    window.scrollTo(-300,document.body.scrollHeight);
   }
+  
   alarm(){
     alert("cyprian_kalina@wp.pl");
   }

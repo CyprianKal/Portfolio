@@ -9,7 +9,9 @@ export class StackComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit() {
+    window.scrollTo(-300,document.body.scrollHeight);
   }
+  
 
 }

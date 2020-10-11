@@ -10,7 +10,7 @@ export class OmnieComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    
+    window.scrollTo(-300,document.body.scrollHeight);
   }
   
 

@@ -8,6 +8,7 @@ import { PlaceHolderComponent } from './place-holder/place-holder.component';
 import { OmnieComponent } from './omnie/omnie.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { StackComponent } from './stack/stack.component';
+import { StopkaComponent } from './stopka/stopka.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { StackComponent } from './stack/stack.component';
     PlaceHolderComponent,
     OmnieComponent,
     KontaktComponent,
-    StackComponent
+    StackComponent,
+    StopkaComponent
   ],
   imports: [
     BrowserModule,
