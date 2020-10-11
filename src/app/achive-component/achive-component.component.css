@@ -1,0 +1,24 @@
+.kafelekcaly{flex:1;display: flex; flex-direction: column; justify-content: center; align-items: center;}
+.zawartosckafelek{text-align: center;  color: rgb(197, 188, 188); flex:1; opacity: 0.3; transition-duration: 300ms;}
+.zawartosckafelek:hover{opacity: 1;}
+#kontenerv5{box-shadow: inset 0px 0px 81px 4px rgba(69,43,69,1);width: 100%;height:auto; display: flex;flex-direction: column; background-color:rgb(34, 34, 59); font-family: 'Courier New', Courier, monospace; margin-bottom: 0;}
+#pojemnik{display: flex; width: 50%; margin: auto; flex-direction: column; padding: 5px; padding-bottom:0 !important; padding-top:100px !important;background-color:rgba(38, 38, 53, 0.664); margin-bottom: 2vh; margin-top: 2vh;border-radius: 10px;}
+#pojemnik div{margin: 2px;}
+#kontenerv5 h1{flex:1; color:white;margin: auto; margin-top: 2%; }
+img{width: 100%; max-height: 95%;}
+#maly{max-height: 77.4%;}
+#row1{display: flex;}
+#row1 div:first-child{flex:2}
+#row1 div:last-child{flex:1}
+
+#row2{display: flex;}
+#row2 div:first-child{flex:1}
+
+@media only screen and (max-width: 900px) {
+    #row1{flex-direction: column;}
+    #row2{flex-direction: column;}
+    #pojemnik{width: 80%; }
+    #kontenerv5 h1{font-size:1.5em ;}
+    .kafelekcaly{flex:1;}
+    #row1,#row2{flex:2;}
+}

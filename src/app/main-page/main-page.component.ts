@@ -12,9 +12,12 @@ export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
   
+
   goToBottom(){
-    window.scrollTo(-300,document.body.scrollHeight);
+    window.scrollTo(-100,document.body.scrollHeight);
   }
+
+  
 
   changeColor(x:string){
     if(x=="ciemny"){

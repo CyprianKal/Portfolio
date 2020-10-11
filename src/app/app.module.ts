@@ -9,6 +9,7 @@ import { OmnieComponent } from './omnie/omnie.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { StackComponent } from './stack/stack.component';
 import { StopkaComponent } from './stopka/stopka.component';
+import { AchiveComponentComponent } from './achive-component/achive-component.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StopkaComponent } from './stopka/stopka.component';
     OmnieComponent,
     KontaktComponent,
     StackComponent,
-    StopkaComponent
+    StopkaComponent,
+    AchiveComponentComponent
   ],
   imports: [
     BrowserModule,

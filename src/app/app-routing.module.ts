@@ -1,3 +1,4 @@
+import { AchiveComponentComponent } from './achive-component/achive-component.component';
 import { StackComponent } from './stack/stack.component';
 import { KontaktComponent } from './kontakt/kontakt.component';
 import { PlaceHolderComponent } from './place-holder/place-holder.component';
@@ -10,7 +11,8 @@ const routes: Routes = [
   {path:'placeholder', component:PlaceHolderComponent},
   {path:'omnie',component:OmnieComponent},
   {path:'kontakt',component:KontaktComponent},
-  {path:'stack',component:StackComponent}
+  {path:'stack',component:StackComponent},
+  {path:'achive',component:AchiveComponentComponent}
 
 ];
 

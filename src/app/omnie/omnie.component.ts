@@ -1,3 +1,4 @@
+import { global } from '@angular/compiler/src/util';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 export class OmnieComponent implements OnInit {
 
   constructor() { }
-
+  
+  goToBottom(){
+    window.scrollTo(-100,document.body.scrollHeight);
+  }
   ngOnInit() {
-    window.scrollTo(-300,document.body.scrollHeight);
+    setTimeout(this.goToBottom, 500);
   }
   
 
