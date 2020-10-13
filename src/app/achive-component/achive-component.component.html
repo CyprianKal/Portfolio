@@ -1,13 +1,14 @@
+
 <div id="kontenerv5">
 
         <h1 id="omnie">Kilka z moich realizacji</h1>
         <div id="pojemnik">
             <div id="row1">
-                <div class="kafelekcaly">
+                <div (click)="wysun(1)" class="kafelekcaly" >
     
 
     
-                    <div class="zawartosckafelek">
+                    <div class="zawartosckafelek" >
                         <img src="assets\portfoliolook.png" alt="">
                     </div>
     
@@ -59,5 +60,10 @@
     
       
 
+           
 </div>
-
+<div id="slajd" style="margin-top: 300px;">
+    <h1 id="slajdtytul"></h1>
+    <p id="slajdp"></p>
+    <button (click)="wysun(0)" style="cursor: pointer;">kliknij aby schować</button>
+</div>
