@@ -13,17 +13,17 @@ export class AchiveComponentComponent implements OnInit {
     window.scrollTo(-100,document.body.scrollHeight);
   }
   ngOnInit() {
-    setTimeout(this.goToBottom, 500);
+    setTimeout(this.goToBottom, 100);
   }
 
   wysun(x:number){
     
     if (x>0){
-      document.getElementById("punkt").scrollIntoView({behavior: 'smooth'});     
-      document.getElementById("slajd").style.width="80%";
+      document.getElementById("punkt").scrollIntoView({behavior:'auto'});     
+      document.getElementById("slajd").style.width="70%";
       document.getElementById("slajd").style.height="auto";
-      document.getElementById("slajd").style.marginLeft="10%";
-      
+      document.getElementById("slajd").style.marginLeft="15%";
+      document.getElementById("slajd").style.border="5px inset #c5c4c4";
       
 
       const ha = document.getElementById("slajdtytul");
@@ -38,11 +38,24 @@ export class AchiveComponentComponent implements OnInit {
         ha.innerText="Witryna cukierni...";
         pe.innerText="To bardzo prosty projekt wykonany w ramach zadań szkolnych. Wyróżnia go jednak to że postanowiłem się tu postawić nauczycielowi, i zamiast pisać sam nudny html i css użyłem jeszcze po raz pierwszy FlexBoxa - i wyszło mi nawet nieźle! ";
       }
- 
+      else if (x==2){
+        ha.innerText="Herbemesa - mój pierwszy projekt komercyjny..."
+        pe.innerText="Może i nie jest idealny, ale to był mój pierwszy projekt w całości zrobiony samemu. Nawet pojawiły się pierwsze skrypty...";
+      } 
+
+      else if (x==3){
+        ha.innerText="Agencja marketingowa..."
+        pe.innerText="Jeden z wielu projeków zrobionych przeze mnie w ramach praktyk - nauczyłęm się na nim obsługi WordPressa, i został oceniony jako najlepszy ze wszystkich przez mojego PraktykoDawcę!";
+      } 
+
+      else if (x==4){
+        ha.innerText="Rozsyłącz maili..."
+        pe.innerText="Jeden z wielu projeków zrobionych przeze mnie w Pythonie. Niestety tak jak widać umarł on w etapie projektowym. Co prawda sama teoria wysłania Maila działała szybciej niż wersja konwencjonalna, ale samo wysłanie zajmowało kilkadziesiąt sekund... Okazało się to nieopłacalne i niepomocne podczas nauczania zdalnego...  ";
+      } 
     }
     else if (x==0){
       document.getElementById("slajd").style.width="0%";
-      
+      document.getElementById("slajd").style.border="0";
 
       
     }

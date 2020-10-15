@@ -12,7 +12,7 @@ export class KontaktComponent implements OnInit {
     window.scrollTo(-100,document.body.scrollHeight);
   }
   ngOnInit() {
-    setTimeout(this.goToBottom, 500);
+    setTimeout(this.goToBottom, 100);
   }
   
   alarm(){

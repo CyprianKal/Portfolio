@@ -18,7 +18,7 @@
 #nazwa{flex:2; font-size: calc(2vw + 2vh); padding: 5px;}
 #zdjeciemnie{flex:2; text-align: center; margin-bottom: 0;}
 #zawod{flex:3;  font-size: calc(2vw + 2vh);}
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1100px) {
     #pojemnik{
         flex-direction: column;
         padding: 10px;
