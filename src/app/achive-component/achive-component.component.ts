@@ -41,12 +41,12 @@ export class AchiveComponentComponent implements OnInit {
       }
       else if (x==2){
         ha.innerText="Herbemesa - mój pierwszy projekt komercyjny..."
-        pe.innerText="Może i nie jest idealny, ale to był mój pierwszy projekt w całości zrobiony samemu. Nawet pojawiły się pierwsze skrypty...";
+        pe.innerText="Może i nie jest idealny, ale to był mój pierwszy projekt w całości zrobiony samemu. Nawet pojawiły się pierwsze skrypty... http://twojezdrowie.net.pl/";
       } 
 
       else if (x==3){
         ha.innerText="Agencja marketingowa..."
-        pe.innerText="Jeden z wielu projeków zrobionych przeze mnie w ramach praktyk - nauczyłęm się na nim obsługi WordPressa, i został oceniony jako najlepszy ze wszystkich przez mojego PraktykoDawcę!";
+        pe.innerText="Jeden z wielu projeków zrobionych przeze mnie w ramach praktyk - nauczyłęm się na nim obsługi WordPressa, i został oceniony jako najlepszy ze wszystkich przez mojego PraktykoDawcę! https://elomelo669929209.wordpress.com/";
       } 
 
       else if (x==4){
