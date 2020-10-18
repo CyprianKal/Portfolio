@@ -19,7 +19,7 @@ export class AchiveComponentComponent implements OnInit {
   wysun(x:number){
     
     if (x>0){
-      document.getElementById("punkt").scrollIntoView({behavior:'auto'});     
+        
       document.getElementById("slajd").style.width="70%";
       document.getElementById("slajd").style.height="auto";
       document.getElementById("slajd").style.marginLeft="15%";
@@ -28,6 +28,7 @@ export class AchiveComponentComponent implements OnInit {
 
       const ha = document.getElementById("slajdtytul");
       const pe = document.getElementById("slajdp");
+      document.getElementById("slajd").scrollIntoView({behavior: "auto"});   
       if (x==1){
         ha.innerText="To portfolio...";
         pe.innerText="To portfolio to mój pierwszy większy projekt w Angulrze. Jestem z niego dumny - zrobiłem go w 100% sam, i wykorzystałem bardzo wiele nowych dla mnie rozwiązań które pomogą mi w dalszym rozwoju ";

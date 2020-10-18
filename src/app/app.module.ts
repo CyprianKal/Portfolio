@@ -29,4 +29,6 @@ import { AchiveComponentComponent } from './achive-component/achive-component.co
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { 
+
+}
