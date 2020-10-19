@@ -41,12 +41,13 @@ export class AchiveComponentComponent implements OnInit {
       }
       else if (x==2){
         ha.innerText="Herbemesa - mój pierwszy projekt komercyjny..."
-        pe.innerText="Może i nie jest idealny, ale to był mój pierwszy projekt w całości zrobiony samemu. Nawet pojawiły się pierwsze skrypty... http://twojezdrowie.net.pl/";
+        pe.innerHTML="<a href='http://twojezdrowie.net.pl/' title='Klikni by przejsc do strony!' style='text-decoration:none; color:black;' target='_blank'>Może i nie jest idealny, ale to był mój pierwszy projekt w całości zrobiony samemu. Nawet pojawiły się pierwsze skrypty...</a>";
       } 
 
       else if (x==3){
+        document.getElementById("slajd").style.fontSize="30px";
         ha.innerText="Agencja marketingowa..."
-        pe.innerText="Jeden z wielu projeków zrobionych przeze mnie w ramach praktyk - nauczyłęm się na nim obsługi WordPressa, i został oceniony jako najlepszy ze wszystkich przez mojego PraktykoDawcę! https://elomelo669929209.wordpress.com/";
+        pe.innerHTML="<a href='https://elomelo669929209.wordpress.com/' title='Klikni by przejsc do strony!' style='text-decoration:none; color:black;' target='_blank'> Jeden z wielu projeków zrobionych przeze mnie w ramach praktyk - nauczyłęm się na nim obsługi WordPressa, i został oceniony jako najlepszy ze wszystkich przez mojego PraktykoDawcę! </a>"
       } 
 
       else if (x==4){
